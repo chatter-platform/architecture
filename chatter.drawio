@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-11T15:47:04.479Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="-Ld-IiGmHp-5iwgmGfRN" version="21.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-11T16:02:23.187Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="8U-6svOuf-JhjA52n8yB" version="21.0.6" type="github">
   <diagram name="Page-1" id="XPsEhaVmD4LxFUibNrj5">
     <mxGraphModel dx="2284" dy="1875" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -8,10 +8,13 @@
           <mxGeometry x="-480" y="-270" width="980" height="200" as="geometry" />
         </mxCell>
         <mxCell id="vwFbI64DFWH7WejsQwX_-10" value="Authentication and authorization service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="vwFbI64DFWH7WejsQwX_-11">
-          <mxGeometry x="5" y="40" width="120" height="60" as="geometry" />
+          <mxGeometry x="10" y="40" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vwFbI64DFWH7WejsQwX_-12" value="Security" style="text;html=1;align=center;verticalAlign=middle;resizable=1;points=[];autosize=1;strokeColor=none;fillColor=none;movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="vwFbI64DFWH7WejsQwX_-11">
           <mxGeometry width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vwFbI64DFWH7WejsQwX_-54" value="Audit and security management service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="vwFbI64DFWH7WejsQwX_-11">
+          <mxGeometry x="10" y="120" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vwFbI64DFWH7WejsQwX_-13" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
           <mxGeometry x="500" width="230" height="380" as="geometry" />
@@ -47,7 +50,13 @@
           <mxGeometry width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vwFbI64DFWH7WejsQwX_-46" value="Service for localization and translation management" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="vwFbI64DFWH7WejsQwX_-47">
-          <mxGeometry x="10" y="30" width="100" height="60" as="geometry" />
+          <mxGeometry x="10" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vwFbI64DFWH7WejsQwX_-50" value="Mobile application management service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="vwFbI64DFWH7WejsQwX_-47">
+          <mxGeometry x="10" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vwFbI64DFWH7WejsQwX_-52" value="Session and cache management service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="vwFbI64DFWH7WejsQwX_-47">
+          <mxGeometry x="10" y="170" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vwFbI64DFWH7WejsQwX_-39" value="" style="swimlane;startSize=0;" vertex="1" parent="vwFbI64DFWH7WejsQwX_-15">
           <mxGeometry x="250" width="250" height="380" as="geometry" />
@@ -60,6 +69,9 @@
         </mxCell>
         <mxCell id="vwFbI64DFWH7WejsQwX_-2" value="Schedule management service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="vwFbI64DFWH7WejsQwX_-39">
           <mxGeometry x="-60" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vwFbI64DFWH7WejsQwX_-53" value="Chat management service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="vwFbI64DFWH7WejsQwX_-39">
+          <mxGeometry x="-60" y="170" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vwFbI64DFWH7WejsQwX_-40" value="" style="swimlane;startSize=0;" vertex="1" parent="vwFbI64DFWH7WejsQwX_-15">
           <mxGeometry x="500" width="250" height="380" as="geometry" />
@@ -109,6 +121,9 @@
         <mxCell id="vwFbI64DFWH7WejsQwX_-27" value="Discount and promo code management service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="vwFbI64DFWH7WejsQwX_-19">
           <mxGeometry x="150" y="110" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="vwFbI64DFWH7WejsQwX_-49" value="Service for the management of reports and financial statements" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="vwFbI64DFWH7WejsQwX_-19">
+          <mxGeometry x="150" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="vwFbI64DFWH7WejsQwX_-24" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
           <mxGeometry x="-480" y="780" width="980" height="190" as="geometry" />
         </mxCell>
@@ -117,6 +132,9 @@
         </mxCell>
         <mxCell id="vwFbI64DFWH7WejsQwX_-26" value="SEO and marketing management service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="vwFbI64DFWH7WejsQwX_-24">
           <mxGeometry x="10" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vwFbI64DFWH7WejsQwX_-51" value="Analytics and metrics management service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="vwFbI64DFWH7WejsQwX_-24">
+          <mxGeometry x="10" y="100" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vwFbI64DFWH7WejsQwX_-33" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
           <mxGeometry x="-480" y="-60" width="980" height="50" as="geometry" />
